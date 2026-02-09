@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from tools import read_file, write_file, run_command, list_files
 
-CONFIG_DIR = Path(user_config_dir("myapp"))
+CONFIG_DIR = Path(user_config_dir("developer"))
 CONFIG_FILE = CONFIG_DIR / "config.json"
 
 def load_config():
